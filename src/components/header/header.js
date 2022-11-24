@@ -6,7 +6,7 @@ import Notification from './notification'
 
 function Header() {
     return (
-        <header className='p-5 bg-white'>
+        <header className='w-full p-5 bg-white'>
             <div className='flex justify-between items-center'>
                 <img src={logo} className='h-[50px] cursor-pointer' />
                 <Search/>
@@ -16,6 +16,7 @@ function Header() {
 
                 </div> */}
             </div>
+            
 
         </header>
     )
